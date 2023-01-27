@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "shopping-list-oop"
+version = "1"
+description = "shopping list oop version"
+authors = ["parisarahmanipour <parisrahmani93@gmail.com>"]
+readme = "README.md"
+packages = [{include = "shopping_list_oop"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+flake8 = "^6.0.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
